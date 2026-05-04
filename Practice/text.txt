@@ -1,0 +1,21 @@
+Python is a high-level, general-purpose programming language tha
+t emphasizes code readability, simplicity, and ease-of-writing wi
+h the use of significant indentation,[38] "plain English" naming,
+ an extensive ("batteries-included") standard library, and garbage
+  collection. Python supports multiple programming paradigms but w
+  ith an emphasis on object-oriented programming and dynamic typing.
+
+
+Guido van Rossum began working on Python in the la
+te 1980s as a successor to the ABC programming language. Pytho
+n 3.0, released in 2008, was a major revision and not complet
+ely backward-compatible with earlier versions. Beginning with Py
+thon 3.5,[39] capabilities and keywords for typing were added to the language, allowing optional static typing.[40] As of 2026, the Python Software Foundation supports Python 3.10, 3.11, 3.12, 3.13, and 3.14, following the project's annual release cycle and five-year support policy. Python 3.15 is currently in the alpha development phase, and the stable release is expected to come out in October 2026.[41] Earlier versions in the 3.x series have reached end-of-life and no longer receive security updates.
+
+Python has gained widespread use in the machine learning communit
+y.[42][43][44][45] It is widely taught as an introductory programm
+ing language.[46] Since 2003, Python has consistently ranked in t
+he top ten of the most popular programming languages in the TIOBE P
+rogramming Community Index, which ranks based on searches in 24 pla
+tforms.[47]
+
