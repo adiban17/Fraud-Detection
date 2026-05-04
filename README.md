@@ -1,6 +1,6 @@
 # NexFlow Fraud Detection System
 
-## 🎯 Project Overview
+## Project Overview
 
 NexFlow is a comprehensive fraud detection system designed to identify and prevent fraudulent transactions in real-time. This project combines advanced machine learning techniques, natural language processing, and sophisticated feature engineering to create a robust fraud detection pipeline.
 
@@ -12,7 +12,7 @@ NexFlow is a comprehensive fraud detection system designed to identify and preve
 - **Interactive Dashboard**: Streamlit-based interface for transaction monitoring
 - **Model Explainability**: SHAP values for transparent decision-making
 
-## 📊 Dataset Information
+## Dataset Information
 
 ### Primary Dataset
 - **Size**: 1,000,000 transactions
@@ -39,7 +39,7 @@ NexFlow is a comprehensive fraud detection system designed to identify and preve
 | `ip_address` | String | IP address used |
 | `is_fraudulent` | Integer | Target variable (0/1) |
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ### Directory Structure
 ```
@@ -73,7 +73,7 @@ Fraud Detection/
 └── run_all.py             # Complete pipeline orchestrator
 ```
 
-## 🔄 Workflow Pipeline
+## Workflow Pipeline
 
 ### 1. Data Extraction Phase
 ```bash
@@ -124,7 +124,7 @@ streamlit run interface/app.py
 - **Performance Metrics**: Track accuracy, precision, recall
 - **Explainability**: SHAP values for model transparency
 
-## 🧠 Feature Engineering
+## Feature Engineering
 
 ### Core Features
 1. **Transaction Velocity**: Number of transactions per device in last hour
@@ -142,7 +142,7 @@ streamlit run interface/app.py
 - **Invalid IP Flag**: Detect malformed IP addresses
 - **Transaction Status Encoding**: Fraud likelihood by status
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 ### Model Comparison Results
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
@@ -163,7 +163,7 @@ streamlit run interface/app.py
 }
 ```
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Key Performance Indicators
 - **Accuracy**: 95.76% - Overall correct predictions
@@ -178,7 +178,7 @@ streamlit run interface/app.py
 - **Processing Speed**: <100ms per transaction
 - **Scalability**: Handles 1M+ transactions efficiently
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -207,7 +207,7 @@ python -m spacy download en_core_web_sm
    streamlit run interface/app.py
    ```
 
-## 📊 Data Sources & Collection
+## Data Sources & Collection
 
 ### Web Scraping Strategy
 - **Static Sites**: Extract product information, pricing, categories
@@ -220,7 +220,7 @@ python -m spacy download en_core_web_sm
 - **Missing Value Handling**: Comprehensive null value checks
 - **Data Type Consistency**: Ensure proper data types
 
-## 🔧 Configuration
+## Configuration
 
 ### Key Configuration Files
 - **`Data Extraction/utils/config.py`**: Scraping targets and settings
@@ -242,7 +242,7 @@ MAX_PAGES_STATIC = 5
 MAX_PAGES_DYNAMIC = 3
 ```
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### Batch Processing
 ```python
@@ -278,7 +278,7 @@ probabilities = model.predict_proba(X_processed)[:, 1]
 3. View real-time predictions and metrics
 4. Analyze SHAP explanations for model decisions
 
-## 🔍 Model Explainability
+## Model Explainability
 
 ### SHAP Analysis
 - **Feature Importance**: Visualize which features drive fraud decisions
@@ -292,7 +292,7 @@ probabilities = model.predict_proba(X_processed)[:, 1]
 4. **High Balance-to-Amount Ratios**: Account draining behavior
 5. **Suspicious IP Addresses**: Invalid or proxy IPs
 
-## 📝 API Reference
+## API Reference
 
 ### Core Functions
 
@@ -331,7 +331,7 @@ explainer = shap.TreeExplainer(model)
 shap_values = explainer.shap_values(X)
 ```
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 ### Test Data Structure
 - **Location**: `test data/` directory
@@ -343,7 +343,7 @@ shap_values = explainer.shap_values(X)
 - **Holdout Test**: 10% separate test set
 - **Performance Monitoring**: Real-time metric tracking
 
-## 🔄 Continuous Integration
+## Continuous Integration
 
 ### Pipeline Automation
 ```bash
@@ -364,7 +364,7 @@ python "synthetic_generation/data_synthesizer.py"
 4. **Validation**: Test against holdout dataset
 5. **Deployment**: Replace production model
 
-## 📊 Monitoring & Maintenance
+## Monitoring & Maintenance
 
 ### Performance Monitoring
 - **Accuracy Tracking**: Monitor model drift over time
@@ -378,7 +378,7 @@ python "synthetic_generation/data_synthesizer.py"
 - **Monthly**: Model retraining evaluation
 - **Quarterly**: Complete pipeline refresh
 
-## 🚨 Limitations & Considerations
+## Limitations & Considerations
 
 ### Current Limitations
 - **Geographic Scope**: Limited to USA, UK, Canada locations
@@ -393,7 +393,7 @@ python "synthetic_generation/data_synthesizer.py"
 - **Deep Learning**: Explore neural network architectures
 - **Real-time Streaming**: Kafka integration for live processing
 
-## 📞 Support & Contact
+## Support & Contact
 
 ### Technical Support
 - **Documentation**: This README file
@@ -406,13 +406,13 @@ python "synthetic_generation/data_synthesizer.py"
 3. **Documentation**: Update README for new functionality
 4. **Version Control**: Use semantic versioning
 
-## 📄 License
+## License
 
 This project is proprietary and confidential. All rights reserved.
 
 ---
 
-## 🚀 Quick Start Summary
+## Quick Start Summary
 
 ```bash
 # 1. Install dependencies
@@ -432,5 +432,5 @@ streamlit run interface/app.py
 ---
 
 *Last Updated: May 2026*  
-*Version: 1.0.0*  
-*Maintainer: NexFlow Fraud Detection Team*
+*Version: 0.0.1*  
+*Maintainer: adiban17
