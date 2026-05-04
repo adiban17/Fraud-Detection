@@ -69,7 +69,6 @@ Fraud Detection/
 │   ├── processed/            # Processed data
 │   └── final/               # Final datasets
 ├── Test Data/               # Testing datasets
-├── Practice/               # Development experiments
 └── run_all.py             # Complete pipeline orchestrator
 ```
 
